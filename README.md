@@ -12,46 +12,27 @@
 </p>
 
 <p><i>A statistical deep-dive into Seattle, WA housing sales data — using ANOVA, Tukey's HSD, and regression analysis to identify which property attributes most significantly influence sale price.</i></p>
-
-<!-- REPLACE with a banner or key visualization -->
-<!-- <img src="images/banner.png" alt="Project Banner" width="850"/> -->
-
 </div>
 
 ---
 
-## 📌 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Research Questions & Hypotheses](#-research-questions--hypotheses)
-- [Dataset](#-dataset)
-- [Engineered Features](#-engineered-features)
-- [Methodology](#-methodology)
-- [Results & Findings](#-results--findings)
-- [Key Findings Summary](#-key-findings-summary)
-- [Project Structure](#-project-structure)
-- [Tools & Technologies](#-tools--technologies)
-- [References](#-references)
-
----
-
-## 📖 About the Project
+## Project Overview
 
 Real estate agencies face a critical challenge: understanding which property features actually drive sale prices. This project analyzes approximately **20,000 housing sales records** from the Seattle, Washington area (May 2014 – May 2015) to identify the factors that most significantly influence property sale prices.
 
 We focused on three main systems of influence:
 
-- 🏗️ **Property age and renovation status** — including time elapsed since last renovation
-- ⭐ **Condition and grade ratings** — individually and in combination
-- 📐 **Living-lot ratio** — interior living space relative to total lot size
+- **Property age and renovation status** — including time elapsed since last renovation
+- **Condition and grade ratings** — individually and in combination
+- **Living-lot ratio** — interior living space relative to total lot size
 
 Statistical methods used include **single-factor ANOVA**, **Tukey's HSD post-hoc testing**, **simple linear regression**, and **multiple regression analysis** — all implemented in R/RStudio.
 
-> 💡 **Key Result:** Combined condition and grade ratings explain **52.89% of price variability** (adjusted R² = 0.5289), far outperforming any single-factor model.
+> **Key Result:** Combined condition and grade ratings explain **52.89% of price variability** (adjusted R² = 0.5289), far outperforming any single-factor model.
 
 ---
 
-## ❓ Research Questions & Hypotheses
+## Research Questions & Hypotheses
 
 | # | Comparison | Research Question | Null Hypothesis | Method |
 |---|-----------|-------------------|-----------------|--------|
@@ -165,7 +146,7 @@ Evaluation: Adjusted R², individual p-values per category
 
 ---
 
-## 📈 Results & Findings
+## Results & Findings
 
 ### H1 — Grade & Price (ANOVA)
 
