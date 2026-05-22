@@ -74,10 +74,8 @@ These outliers may be muddying price comparisons and should be addressed in futu
 
 ### Condition and Grade Ratings
 
-<!-- Add screenshot: images/price_by_condition.png -->
-<p align="center"><img src="images/price_by_condition.png" alt="Price by Condition" width="400" style="display:inline-block; margin-right:10px"/>
-<img src="images/price_by_grade.png" alt="Price by Grade" width="400" style="display:inline-block"/>
-<br/><em>Figure 2 (left) — Price by Condition &nbsp;&nbsp; Figure 3 (right) — Price by Grade</em></p>
+<p align="center"><img src="Images/Picture10.png" alt="Price by Condition and Grade" width="400" style="display:inline-block; margin-right:10px"/>
+<br/><em>Figure 1 (left) — Price by Condition &nbsp;&nbsp; Figure 2 (right) — Price by Grade</em></p>
 
 #### Property Condition
 
@@ -138,7 +136,7 @@ The F statistic (1937.97) vastly exceeds the F critical value (1.789), and the p
 #### Tukey's HSD — Grade Pairings
 
 <p align="center"><img src="Images/Picture2.png" alt="Tukey HSD Grade" width="700"/>
-<br/><em>Figure 1 — 95% Confidence Intervals for pairwise grade mean differences (R/RStudio)</em></p>
+<br/><em>Figure 3 — 95% Confidence Intervals for pairwise grade mean differences (R/RStudio)</em></p>
 
 **Key findings:**
 
@@ -169,7 +167,7 @@ The F statistic (1937.97) vastly exceeds the F critical value (1.789), and the p
 
 <p align="center">
   <img src="Images/Picture4.png" alt="Tukey HSD Condition" width="700"/>
-  <br/><em>Figure 2 — 95% Confidence Intervals for pairwise condition differences (R/RStudio)<img width="913" height="32" alt="image" src="https://github.com/user-attachments/assets/a5a5d202-a6cb-4e3f-bed1-959400e67dc7" />
+  <br/><em>Figure 4 — 95% Confidence Intervals for pairwise condition differences (R/RStudio)<img width="913" height="32" alt="image" src="https://github.com/user-attachments/assets/a5a5d202-a6cb-4e3f-bed1-959400e67dc7" />
 </em> </p>
 
 **Key findings:**
