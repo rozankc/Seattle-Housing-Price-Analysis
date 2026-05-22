@@ -305,5 +305,5 @@ The combined condition + grade model is **dramatically more powerful** than any 
 
 
 <div align="center">
-  <sub>ADTA 5130 — Data Analytics I | University of North Texas | Spring 2025</sub>
+  <sub>ADTA 5130 — Data Analytics I | University of North Texas </sub>
 </div>
