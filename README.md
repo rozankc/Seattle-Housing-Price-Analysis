@@ -222,7 +222,7 @@ Condition rating has a **statistically significant influence** on sale price.
 </em>
 </p>
 <p align="center">
-  <img src="Images/Picture5.png" alt="Living-Lot Regression" width="700"/>
+  <img src="Images/Picture6.png" alt="Living-Lot Regression" width="700"/>
   <br/><em>Table 4 — Regression results: Living-Lot Ratio vs. Sale Price<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
 </em>
 </p>
