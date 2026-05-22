@@ -44,7 +44,7 @@ Statistical methods used include **single-factor ANOVA**, **Tukey's HSD post-hoc
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **File:** `Spring_2025_16W_Project_Dataset.xlsx`
 **Source:** Seattle, WA housing sales — May 2014 to May 2015
@@ -75,7 +75,7 @@ Statistical methods used include **single-factor ANOVA**, **Tukey's HSD post-hoc
 
 ---
 
-## 🔧 Engineered Features
+## Engineered Features
 
 **File:** `dataset_Project.xlsx`
 
@@ -107,7 +107,7 @@ Additional columns derived for analysis:
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 - Descriptive statistics for all numeric variables
@@ -152,8 +152,9 @@ Evaluation: Adjusted R², individual p-values per category
 
 <!-- Add screenshot: images/anova_grade.png -->
 <p align="center">
-  <img src="images/anova_grade.png" alt="ANOVA Grade Results" width="700"/>
-  <br/><em>Table 3 — ANOVA results: Grade vs. Sale Price</em>
+  <img src="Images/Picture1.png" alt="ANOVA Grade Results" width="700"/>
+  <br/><em>Table 1 — ANOVA test results of the potential influence of a property’s grade rating over its sale price.<img width="778" height="41" alt="image" src="https://github.com/user-attachments/assets/9efde7dd-fdac-422d-8829-16ef111013ca" />
+</em>
 </p>
 
 | Metric | Value |
@@ -171,8 +172,9 @@ Grade has a **statistically significant influence** on sale price. Higher grade 
 
 <!-- Add screenshot: images/tukey_grade.png -->
 <p align="center">
-  <img src="images/tukey_grade.png" alt="Tukey HSD Grade" width="700"/>
-  <br/><em>Figure 4 — 95% Confidence Intervals for pairwise grade differences (R/RStudio)</em>
+  <img src="Images/Picture2.png" alt="Tukey HSD Grade" width="700"/>
+  <br/><em>Figure 1 — Confidence intervals (using a 95% confidence level) of the average price difference between pairings of grade ratings. Generated using R.<img width="893" height="32" alt="image" src="https://github.com/user-attachments/assets/ec3ab60e-08d1-4804-90a3-288fdf4a711b" />
+</em>
 </p>
 
 - Low-to-average grade pairings (≤ 9) tend to include **zero** in their confidence intervals → not statistically significant
@@ -185,8 +187,9 @@ Grade has a **statistically significant influence** on sale price. Higher grade 
 
 <!-- Add screenshot: images/anova_condition.png -->
 <p align="center">
-  <img src="images/anova_condition.png" alt="ANOVA Condition Results" width="700"/>
-  <br/><em>Table 4 — ANOVA results: Condition vs. Sale Price</em>
+  <img src="Images/Picture3.png" alt="ANOVA Condition Results" width="700"/>
+  <br/><em>Table 2 — ANOVA test results of the potential influence of a property’s condition rating over its sale price.<img width="809" height="41" alt="image" src="https://github.com/user-attachments/assets/d41cc374-5620-41c2-a4e3-79bf4bd4d376" />
+</em>
 </p>
 
 | Metric | Value |
@@ -204,8 +207,9 @@ Condition rating has a **statistically significant influence** on sale price.
 
 <!-- Add screenshot: images/tukey_condition.png -->
 <p align="center">
-  <img src="images/tukey_condition.png" alt="Tukey HSD Condition" width="700"/>
-  <br/><em>Figure 5 — 95% Confidence Intervals for pairwise condition differences (R/RStudio)</em>
+  <img src="Images/Picture4.png" alt="Tukey HSD Condition" width="700"/>
+  <br/><em>Figure 2 — Confidence intervals (using a 95% confidence level) of the average price difference between pairings of condition ratings. Generated using R<img width="913" height="32" alt="image" src="https://github.com/user-attachments/assets/a5a5d202-a6cb-4e3f-bed1-959400e67dc7" />
+</em>
 </p>
 
 - Confidence intervals for pairings **2-1** and **4-1** include zero → differences are **not statistically significant**
@@ -218,9 +222,16 @@ Condition rating has a **statistically significant influence** on sale price.
 
 <!-- Add screenshot: images/regression_ratio.png -->
 <p align="center">
-  <img src="images/regression_ratio.png" alt="Living-Lot Regression" width="700"/>
-  <br/><em>Table 5 — Regression results: Living-Lot Ratio vs. Sale Price</em>
+  <img src="Images/Picture5.png" alt="Living-Lot Regression" width="700"/>
+  <br/><em>Table 3 — Regression analysis of the potential relationship between a property’s living-lot ratio and sale price.<img width="835" height="41" alt="image" src="https://github.com/user-attachments/assets/c342e12a-8059-4427-b3c9-89da4adcef07" />
+</em>
 </p>
+<p align="center">
+  <img src="Images/Picture5.png" alt="Living-Lot Regression" width="700"/>
+  <br/><em>Table 4 — Residual plot illustrating the “goodness-of-fit” of the living-lot ratio/price regression model.<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
+</em>
+</p>
+
 
 | Metric | Value |
 |--------|-------|
@@ -236,8 +247,9 @@ Living-lot ratio alone is **not a significant predictor** of sale price. However
 
 <!-- Add screenshot: images/regression_renovation.png -->
 <p align="center">
-  <img src="images/regression_renovation.png" alt="Renovation Regression" width="700"/>
-  <br/><em>Table 6 — Regression results: Renovation Age vs. Sale Price</em>
+  <img src="Images/Picture7.png" alt="Renovation Regression" width="700"/>
+  <br/><em>Table 5— Regression analysis of the potential relationship between the amount of time since a property’s last renovation and its sale price<img width="1071" height="41" alt="image" src="https://github.com/user-attachments/assets/04cb0f50-8804-4a06-ba5e-1750f8c3645c" />
+</em>
 </p>
 
 | Metric | Value |
@@ -255,8 +267,9 @@ Years since renovation is **not a meaningful predictor** of sale price alone.
 
 <!-- Add screenshot: images/regression_multiple.png -->
 <p align="center">
-  <img src="images/regression_multiple.png" alt="Multiple Regression" width="700"/>
-  <br/><em>Table 7 — Multiple regression results: Condition + Grade vs. Sale Price</em>
+  <img src="Images/Picture8.png" alt="Multiple Regression" width="700"/>
+  <br/><em>Table 6 — Multiple regression analysis of the relationship between a property’s condition, grade, and sale price.<img width="846" height="41" alt="image" src="https://github.com/user-attachments/assets/5ef2a655-5503-4bc9-ba34-c24261a69b5c" />
+</em>
 </p>
 
 | Metric | Value |
@@ -268,7 +281,7 @@ The combined condition + grade model is **dramatically more powerful** than any 
 
 ---
 
-## 💡 Key Findings Summary
+## Key Findings Summary
 
 | Factor | Impact on Price | Statistical Significance |
 |--------|----------------|--------------------------|
@@ -286,31 +299,7 @@ The combined condition + grade model is **dramatically more powerful** than any 
 
 ---
 
-## 📁 Project Structure
-
-```
-📦 seattle-housing-price-analysis/
- ┣ 📂 images/
- ┃ ┣ 🖼️ banner.png                    # Project banner / key visualization
- ┃ ┣ 🖼️ anova_grade.png               # ANOVA table — Grade vs. Price
- ┃ ┣ 🖼️ tukey_grade.png               # Tukey HSD — Grade pairings
- ┃ ┣ 🖼️ anova_condition.png           # ANOVA table — Condition vs. Price
- ┃ ┣ 🖼️ tukey_condition.png           # Tukey HSD — Condition pairings
- ┃ ┣ 🖼️ regression_ratio.png          # Regression — Living-Lot Ratio
- ┃ ┣ 🖼️ regression_renovation.png     # Regression — Renovation Age
- ┃ ┣ 🖼️ regression_multiple.png       # Multiple Regression — Condition + Grade
- ┃ ┣ 🖼️ price_by_grade.png            # EDA — Price distribution by grade
- ┃ ┣ 🖼️ price_by_condition.png        # EDA — Price distribution by condition
- ┃ ┗ 🖼️ scatterplot_ratio.png         # Scatterplot — Living-lot ratio distribution
- ┣ 📊 Spring_2025_16W_Project_Dataset.xlsx   # Original source dataset
- ┣ 📊 dataset_Project.xlsx                  # Engineered dataset with derived features
- ┣ 📄 Report.pdf                            # Full project report
- ┗ 📄 README.md
-```
-
----
-
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -321,13 +310,6 @@ The combined condition + grade model is **dramatically more powerful** than any 
 
 ---
 
-## 📚 References
-
-- King County House Sales Dataset (Seattle, WA) — May 2014 to May 2015
-- R Core Team. (2024). *R: A language and environment for statistical computing*. R Foundation for Statistical Computing. https://www.r-project.org/
-- Tukey, J.W. (1949). Comparing individual means in the analysis of variance. *Biometrics, 5*(2), 99–114.
-
----
 
 <div align="center">
   <sub>ADTA 5130 — Data Analytics I | University of North Texas | Spring 2025</sub>
