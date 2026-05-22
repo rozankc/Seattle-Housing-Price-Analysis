@@ -223,7 +223,7 @@ Condition rating has a **statistically significant influence** on sale price.
 </p>
 <p align="center">
   <img src="Images/Picture6.png" alt="Living-Lot Regression" width="700"/>
-  <br/><em>Table 4 — Regression results: Living-Lot Ratio vs. Sale Price<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
+  <br/><em>Table 4 — Residual plot: Living-Lot Ratio regression model<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
 </em>
 </p>
 
@@ -259,7 +259,6 @@ Years since renovation is **not a meaningful predictor** of sale price alone.
 
 ### H5 — Condition + Grade & Price (Multiple Regression)
 
-<!-- Add screenshot: images/regression_multiple.png -->
 <p align="center">
   <img src="Images/Picture8.png" alt="Multiple Regression" width="700"/>
   <br/><em>Table 6 — Multiple regression results: Condition + Grade vs. Sale Price <img width="846" height="41" alt="image" src="https://github.com/user-attachments/assets/5ef2a655-5503-4bc9-ba34-c24261a69b5c" />
