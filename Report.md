@@ -3,8 +3,6 @@
 
 > **Course:** ADTA 5130 — Data Analytics I
 > **Institution:** University of North Texas
-> **Instructor:** Dr. Henrique Ewbank de Miranda Vieira
-> **Date:** April 27, 2025
 
 ---
 
