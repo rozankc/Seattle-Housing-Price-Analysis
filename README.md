@@ -150,10 +150,9 @@ Evaluation: Adjusted R², individual p-values per category
 
 ### H1 — Grade & Price (ANOVA)
 
-<!-- Add screenshot: images/anova_grade.png -->
 <p align="center">
   <img src="Images/Picture1.png" alt="ANOVA Grade Results" width="700"/>
-  <br/><em>Table 1 — ANOVA test results of the potential influence of a property’s grade rating over its sale price.<img width="778" height="41" alt="image" src="https://github.com/user-attachments/assets/9efde7dd-fdac-422d-8829-16ef111013ca" />
+  <br/><em>Table 1 — ANOVA results: Grade vs. Sale Price<img width="778" height="41" alt="image" src="https://github.com/user-attachments/assets/9efde7dd-fdac-422d-8829-16ef111013ca" />
 </em>
 </p>
 
@@ -170,10 +169,9 @@ Grade has a **statistically significant influence** on sale price. Higher grade 
 
 ### H1 — Tukey's HSD: Grade Pairings
 
-<!-- Add screenshot: images/tukey_grade.png -->
 <p align="center">
   <img src="Images/Picture2.png" alt="Tukey HSD Grade" width="700"/>
-  <br/><em>Figure 1 — Confidence intervals (using a 95% confidence level) of the average price difference between pairings of grade ratings. Generated using R.<img width="893" height="32" alt="image" src="https://github.com/user-attachments/assets/ec3ab60e-08d1-4804-90a3-288fdf4a711b" />
+  <br/><em>Figure 1 — 95% Confidence Intervals for pairwise grade differences (R/RStudio)<img width="893" height="32" alt="image" src="https://github.com/user-attachments/assets/ec3ab60e-08d1-4804-90a3-288fdf4a711b" />
 </em>
 </p>
 
@@ -185,10 +183,9 @@ Grade has a **statistically significant influence** on sale price. Higher grade 
 
 ### H2 — Condition & Price (ANOVA)
 
-<!-- Add screenshot: images/anova_condition.png -->
 <p align="center">
   <img src="Images/Picture3.png" alt="ANOVA Condition Results" width="700"/>
-  <br/><em>Table 2 — ANOVA test results of the potential influence of a property’s condition rating over its sale price.<img width="809" height="41" alt="image" src="https://github.com/user-attachments/assets/d41cc374-5620-41c2-a4e3-79bf4bd4d376" />
+  <br/><em>Table 2 — ANOVA results: Condition vs. Sale Price<img width="809" height="41" alt="image" src="https://github.com/user-attachments/assets/d41cc374-5620-41c2-a4e3-79bf4bd4d376" />
 </em>
 </p>
 
@@ -205,10 +202,9 @@ Condition rating has a **statistically significant influence** on sale price.
 
 ### H2 — Tukey's HSD: Condition Pairings
 
-<!-- Add screenshot: images/tukey_condition.png -->
 <p align="center">
   <img src="Images/Picture4.png" alt="Tukey HSD Condition" width="700"/>
-  <br/><em>Figure 2 — Confidence intervals (using a 95% confidence level) of the average price difference between pairings of condition ratings. Generated using R<img width="913" height="32" alt="image" src="https://github.com/user-attachments/assets/a5a5d202-a6cb-4e3f-bed1-959400e67dc7" />
+  <br/><em>Figure 2 — 95% Confidence Intervals for pairwise condition differences (R/RStudio)<img width="913" height="32" alt="image" src="https://github.com/user-attachments/assets/a5a5d202-a6cb-4e3f-bed1-959400e67dc7" />
 </em>
 </p>
 
@@ -220,15 +216,14 @@ Condition rating has a **statistically significant influence** on sale price.
 
 ### H3 — Living-Lot Ratio & Price (Regression)
 
-<!-- Add screenshot: images/regression_ratio.png -->
 <p align="center">
   <img src="Images/Picture5.png" alt="Living-Lot Regression" width="700"/>
-  <br/><em>Table 3 — Regression analysis of the potential relationship between a property’s living-lot ratio and sale price.<img width="835" height="41" alt="image" src="https://github.com/user-attachments/assets/c342e12a-8059-4427-b3c9-89da4adcef07" />
+  <br/><em>Table 3 — Regression results: Living-Lot Ratio vs. Sale Price<img width="835" height="41" alt="image" src="https://github.com/user-attachments/assets/c342e12a-8059-4427-b3c9-89da4adcef07" />
 </em>
 </p>
 <p align="center">
   <img src="Images/Picture5.png" alt="Living-Lot Regression" width="700"/>
-  <br/><em>Table 4 — Residual plot illustrating the “goodness-of-fit” of the living-lot ratio/price regression model.<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
+  <br/><em>Table 4 — Regression results: Living-Lot Ratio vs. Sale Price<img width="770" height="41" alt="image" src="https://github.com/user-attachments/assets/c1f33e4e-f1b8-4e07-b238-c272fa66ecab" />
 </em>
 </p>
 
@@ -245,10 +240,9 @@ Living-lot ratio alone is **not a significant predictor** of sale price. However
 
 ### H4 — Renovation Age & Price (Regression)
 
-<!-- Add screenshot: images/regression_renovation.png -->
 <p align="center">
   <img src="Images/Picture7.png" alt="Renovation Regression" width="700"/>
-  <br/><em>Table 5— Regression analysis of the potential relationship between the amount of time since a property’s last renovation and its sale price<img width="1071" height="41" alt="image" src="https://github.com/user-attachments/assets/04cb0f50-8804-4a06-ba5e-1750f8c3645c" />
+  <br/><em>Table 5— Regression results: Renovation Age vs. Sale Price <img width="1071" height="41" alt="image" src="https://github.com/user-attachments/assets/04cb0f50-8804-4a06-ba5e-1750f8c3645c" />
 </em>
 </p>
 
@@ -268,7 +262,7 @@ Years since renovation is **not a meaningful predictor** of sale price alone.
 <!-- Add screenshot: images/regression_multiple.png -->
 <p align="center">
   <img src="Images/Picture8.png" alt="Multiple Regression" width="700"/>
-  <br/><em>Table 6 — Multiple regression analysis of the relationship between a property’s condition, grade, and sale price.<img width="846" height="41" alt="image" src="https://github.com/user-attachments/assets/5ef2a655-5503-4bc9-ba34-c24261a69b5c" />
+  <br/><em>Table 6 — Multiple regression results: Condition + Grade vs. Sale Price <img width="846" height="41" alt="image" src="https://github.com/user-attachments/assets/5ef2a655-5503-4bc9-ba34-c24261a69b5c" />
 </em>
 </p>
 
