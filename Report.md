@@ -74,7 +74,7 @@ These outliers may be muddying price comparisons and should be addressed in futu
 
 ### Condition and Grade Ratings
 
-<p align="center"><img src="Images/Picture10.png" alt="Price by Condition and Grade" width="400" style="display:inline-block; margin-right:10px"/>
+<p align="center"><img src="Images/Picture10.png" alt="Price by Condition and Grade" width="700" style="display:inline-block; margin-right:10px"/>
 <br/><em>Figure 1 (left) — Price by Condition &nbsp;&nbsp; Figure 2 (right) — Price by Grade</em></p>
 
 #### Property Condition
