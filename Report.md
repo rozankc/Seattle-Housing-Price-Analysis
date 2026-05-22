@@ -102,7 +102,7 @@ The majority of sold properties cluster at **average or above-average** grade, w
 
 ---
 
-## 🔬 Hypotheses
+## Hypotheses
 
 | # | Comparison | Research Question | Null Hypothesis | Alternative Hypothesis | Method |
 |---|-----------|-------------------|-----------------|------------------------|--------|
